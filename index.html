@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>CecyDev</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./imgs/logo-nav-p.png" alt="Logo tag html">
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="menu" id="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projeto">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            <div class="opcoes"></div>
+        </nav>        
+    </header>
+    <main>
+        <section id="home">
+            <section class="perfil">
+            <img src="./imgs/foto-portifolio.jpg" alt="Foto de Perfil Cecylia">
+            <div class="infos">
+                <h1>Hello world! <br> Sou a <span>Cecylia Teixeira</span> :)</h1>
+                <p>Estudante de desenvolvimento Web</p>
+            </div>
+        </section>
+        </section>
+        <section id="sobre">
+            <div class="infos-sobre">
+                <h2>Sobre</h2>
+                <p>Estudante de Desenvolvimento Web, movida pela paixão por tecnologia, desafios e games. Desde 2025, venho construindo conhecimentos em Python, HTML, CSS e JavaScript, sempre buscando transformar aprendizado em soluções práticas.</p>
+            </div>
+            <div class="tecnologias">
+                <div class="mini-card">
+                    <p>HTML5</p>
+                    <img src="./imgs/icons8-html-5-48.png" alt="Logo HTML5">
+                </div>
+                <div class="mini-card">
+                    <p>CSS3</p>
+                    <img src="./imgs/icons8-css-logo-48.png" alt="Logo CSS3">
+                </div>
+                <div class="mini-card">
+                    <p>JavaScript</p>
+                    <img src="./imgs/icons8-javascript-48.png" alt="Logo JavaScript">
+                </div>
+                <div class="mini-card">
+                    <p>Python</p>
+                    <img src="./imgs/icons8-python-48.png" alt="Logo Python">
+                </div>
+                <div class="mini-card">
+                    <p>SQL</p>
+                    <img src="./imgs/icons8-sql-64.png" alt="Logo SQL">
+                </div>
+            </div>
+        </section>
+        <section id="projeto">
+            <h2>Projetos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img class="img-card" src="./imgs/Captura de tela 2026-04-22 150204.png" alt="Projeto Landing Page - Mario Bros">
+                    <h3>Super Mario Bros</h3>
+                    <p>Landing Page criada para estudar HTML e CSS.</p>
+                    <div class="links">
+                        <a target="_blank" href="https://github.com/CecyTeix/projeto_mario_bros">Github</a>
+                        <a target="_blank" href="https://cecyteix.github.io/projeto_mario_bros/">Visitar site</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="./imgs/projErika.png" alt="Projeto Landing Page - Erika">
+                    <h3>For My Love</h3>
+                    <p>Projeto dedicado a minha noiva, aproveitando para revisar conceitos de HTML e CSS.</p>
+                    <div class="links">
+                        <a target="_blank" href="https://github.com/CecyTeix/mylove">Github</a>
+                        <a target="_blank" href="https://cecyteix.github.io/mylove/index.html">Visitar site</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="./imgs/projCurriculo.png" alt="Portifólio CecyDev">
+                    <h3>Portifólio CecyDev</h3>
+                    <p>Portifólio completo, utilizando HTML, CSS e Responsividade.</p>
+                    <div class="links">
+                        <a target="_blank" href="https://github.com/CecyTeix/mylove">Github</a>
+                        <a target="_blank" href="https://cecyteix.github.io/mylove/index.html">Visitar site</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contatos</h2>
+            <div class="cards">
+                <div class="card-contato">
+                    <a target="_blank" href="mailto:annacecyl2002@gmail.com">
+                    <img src="./imgs/icons8-nova-mensagem-48.png" alt="Imagem de um envelope">
+                    <h3>E-mail</h3>
+                    </a>
+                </div>
+                <div class="card-contato">
+                    <a target="_blank" href="https://wa.me/5585987362181">
+                    <img src="./imgs/icons8-whatsapp-50.png" alt="Imagem da logo do WhatsApp">
+                    <h3>WhatsApp</h3>
+                    </a>
+                </div>
+                <div class="card-contato">
+                    <a target="_blank" href="https://www.linkedin.com/in/cecylia-teixeira-406918212/">
+                    <img src="./imgs/icons8-linkedin-50.png" alt="Imagem da logo do LinkedIn">
+                    <h3>LinkedInd</h3>
+                    </a>
+                </div>
+                <div class="card-contato">
+                    <a target="_blank" href="https://github.com/CecyTeix">
+                    <img src="./imgs/icons8-github-50.png" alt="Imagem da logo GitHub">
+                    <h3>GitHub</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Cecylia Teixeira</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
